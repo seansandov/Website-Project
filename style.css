@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+/* BY NO MEANS IS THIS CODE PERFECT, JUDGE ME SECRETLY */
+
+/* Puts the box around "THE DAWNLIGHT" */
+li:nth-child(3)
+{
+	border-right: none;
+	font-size: 35px;
+	border-style: solid;
+	border-width: 3px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+/* Adds line that divides menu options */
+li
+{
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	border-right: 2px solid #000000;
+}
+
+/* Does not display line on the
+right of "MENU" */
+li:nth-child(2)
+{
+	border-right: none;
+}
+
+/* Self explanatory in that
+the logo "THE DAWNLIGHT" is leveled
+with the menu options */
+#level
+{
+	border-top: 4%;
+}
+
+/* Takes out border on the right
+of the last listed word "EVENTS" */
+.last
+{
+	border-right: none;
+}
+
+/* Sets general screen width
+and allows auto sizing */
+nav
+{
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Sets general screen width
+and allows auto sizing */
+.imagespace
+{
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Creates standard for all menu
+option text */
+.menu-options
+{
+	font-size: 25;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Makes it so that links are not
+underlined and color changed when clicked on */
+a:link, a:visited
+{
+	text-decoration: none;
+	color: black;
+}
